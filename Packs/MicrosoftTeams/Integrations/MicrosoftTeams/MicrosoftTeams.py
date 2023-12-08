@@ -492,7 +492,7 @@ def process_ask_user(message: str) -> dict:
         {
             'type': 'TextBlock',
             'text': text,
-            'warp': True
+            'wrap': True
         }
     ]
     actions = []
